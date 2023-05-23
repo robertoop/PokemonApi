@@ -8,7 +8,14 @@ def index():
 
 @app.get("/Pokemon/{num}")
 def pokemon(num):
-	return num
+	pokemons={
+	"1":"Bulbasaur",
+	"2":"Ivysaur",
+	"3": "Venasaur",
+	"4": "Charmander"
+		
+	}
+	return pokemons{num}
 
 @app.get("/Conversor_CaF/{C}")
 def conversorCaF(C):
